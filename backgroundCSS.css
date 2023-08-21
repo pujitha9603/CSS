@@ -1,0 +1,13 @@
+body{
+	background-image: url('images/bg1.avif');
+	background-repeat: no-repeat;
+	background-size: cover;	
+
+}
+h1{
+	text-align: center;
+}
+pre{
+	padding-top: 300px;
+	font-size: 18px;
+}

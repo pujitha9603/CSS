@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TASK 1</title>
+	<link rel="stylesheet" type="text/css" href="task1CSS.css">
+</head>
+<body>
+	<center><img src="images/epam.png"></center>
+	<p class="pp"><b>HTML Elements</b></p><hr><br>
+	<a href="#Home">Home</a>
+	<a href="#Headers">Headers</a>
+	<a href="#Table">Table</a>
+	<a href="#List">List</a>
+	<a href="#Text formats">Text formats</a>
+	<a href="#Blockquotes">Blockquotes</a>
+	<hr>
+
+	<p id="Home">Pay attention to h1 tag inside section element. Font-size for h2 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p><br>
+	<p id="Headers">
+		<h2>Header 2</h2>
+		<h3>Header 3</h3>
+		<h4>Header 4</h4>
+		<h5>Header 5</h5>
+		<h6>Header 6</h6><hr>
+		<p>Lorem ipsum dolor sit amet, <u class="f">test link</u> adipiscing elit. <b>This is strong</b>. Nullam dignissim convallis est. Quisque aliquam. <i>This is emphasized</i>. Donec faucibus. Nunc iaculis suscioit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <i>The New York Times</i>(That's a citation). <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. mauris a ante. Suspendisse quam sem, consequent at, commodo vitae, feugiat in, numc. Morbi imperidiet augue <big>quis tellus</big>.<br><br>HTML and CSS are our tools. Mauris a ante. <mark class="e">Suspendisse</mark> quam sem, consequant at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Prasent mattis, massa quis luctus fermentum, turpis mi volutpat enim diam eget metus. To copy a file type copy filename. dinner's at 5:00. <mark>Let's make that 7</mark>. This text has been struck. 
+		</p><br>
+		<hr>
+	</p>
+	<p class="pu"><b>Table</b></p>
+	<table id="Table">
+		<thead>
+			<tr>
+				<th>Header</th>
+				<th>Header</th>
+				<th>Header</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Lviv</td>
+				<td>Kyiv</td>
+				<td>Kharkiv</td>
+			</tr>
+			<tr>
+				<td>Odessa</td>
+				<td>Zhytomyr</td>
+				<td>Dnipro</td>
+			</tr>
+			<tr>
+				<td>Sunny</td>
+				<td>Chernivtsi</td>
+				<td>Lutsk</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<br>
+	<div id="List">
+		<h2>Unordered List</h2>
+		<ul class="a">
+			<li>List item 1</li>
+			<li>List item 2</li>
+			<ul class="b">
+				<li>Some nested list item 1</li>
+			</ul>
+			<li>List item 3</li>
+		</ul>
+		<h2>Ordered List</h2>
+		<ol>
+			<li>List item 1</li>
+			<li>List item 1</li>
+			<ol class="c">
+				<li>Some nested list item 1</li>
+			</ol>
+			<li>List item 3</li>
+		</ol>
+		<h2>Definition List</h2>
+		<h4>defines terms 1</h4>
+		description 1
+		<h4>defines terms 2</h4>
+		description 2<br><br>
+		details
+		<select>
+			<option>HTML</option>
+			<option>HTML</option>
+		</select>
+	</div><hr><br>
+	<div id="Text formats">
+		<h2>Text Formats</h2>
+		<h3>Article Text</h3>
+	    <h4>Article title</h4>
+	    <h5>Article description</h5>
+	    <h3>Performatted Text</h3>
+	    <div class="pr">
+			<pre>
+			              Text
+			       in a pre element
+			         is displayed in a fixed-width
+			    font, and it preserves
+			    both
+			      spaces and
+			         line breakss
+		    </pre>
+		</div><br>
+	    <h2>code</h2>
+	    <div class="sp">
+		    <pre>
+				.wrapper{
+			    display: flex;
+				vertical-align: middle;
+			    justify-content: center;
+				}
+			</pre>		
+	 	</div>	
+	</div>
+	<div id="Blockquotes">
+		<h2>Blockquotes</h2>
+		<p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+		<blockquote>"If you go back a few hundred years, what we take for garnted today would seem like magic-being able to talk topeople over long distances, to trnasmit images, flying, accessing vast amounts of data like an oracle. These are all thimgs that would have been considered magic a few hunderd years ago."<br><u class="f">Elon Musk</u></blockquote><hr>
+	</div>
+	<form>
+		<input  style="float: right" type="text">
+		<label style="float: right;">First name:</label>
+		<br><br>
+		<input style="float:  right"type="text">
+		<label style="float: right;">Surname:</label>
+		<br><br>
+		<input style="float: right" type="text">
+		<label style="float: right;">Email:</label>
+		<br><br>
+		<div style="width: 100%;height: 200px;background-color: white;">
+			<textarea style="height: 200px;float: right;"></textarea>
+		</div><br>
+		<input style="width: 170px;float: right;" type="submit">
+	</form>		
+	<br><br><br><br><br>
+	<div class="oo">
+		<p align="center">&copy;Copyright Epam Systems</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+div{
+	height: 300px;
+	width: 800px;
+}
+.a{
+	height: 300px;
+	width: 200px;
+	background-color: peachpuff;
+	float: left;
+	margin-left: 70px;
+}
+.b{
+	height: 300px;
+	width: 300px;
+	background-color: skyblue;
+	float: left;
+	margin-left: 100px;
+
+}
+.c{
+	height: 300px;
+	width: 100px;
+	background-color: palegreen;
+	float: right;
+	margin-left: 30px;
+
+}
+
+.head1{
+	padding-top: 115px;
+	padding-left: 85px ;
+	font-size: 20px;
+}
+.head2{
+	padding-top: 115px;
+	padding-left: 120px ;
+	font-size: 20px;
+}
+.head3{
+	padding-top: 115px;
+	padding-left: 25px ;
+	font-size: 20px;
+}
+

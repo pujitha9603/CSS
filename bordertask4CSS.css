@@ -1,0 +1,9 @@
+div{
+	height: 100px;
+	width: 500px;
+	background-color: whitesmoke;
+	outline-style: dashed;
+	outline-width: 8px;
+	outline-color: red;
+	box-shadow: 0 0 0 8px skyblue;	
+}

@@ -1,0 +1,10 @@
+div{
+	height: 200px;
+	width: 400px;
+	background-color: pink;
+	font-family: cursive;
+	padding-top: 30px;
+	outline-style: dotted;
+	outline-width: 10px;
+	outline-color: red;
+}

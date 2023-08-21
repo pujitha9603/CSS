@@ -1,0 +1,29 @@
+div{
+	height: 350px;
+	width: 750px;
+	background-color: grey;
+}
+.a{
+	height: 280px;
+	width: 680px;
+	background-color: orange;
+	margin-top: 18px;
+	margin-bottom: 52px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.b{
+	height: 210px;
+	width: 610px;
+	background-color: dimgrey;
+	margin-left: 33px;	
+}
+.c{
+	height: 135px;
+	width: 540px;
+	background-color: palegreen;
+	margin-left: 35px;	
+}
+.head{
+	padding-left: 50px;
+}
